@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 18, 30); /* Darker background for dark mode */
+    color: #e0e0e0; /* Softer white for text */
+}
+
+section {
+    width: 650px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    text-align: center;
+    color: #ffffff; /* White for better visibility */
+}
+
+h2 {
+    font-size: 2.2rem;
+    line-height: 1.1;
+    text-align: center;
+    color: #ffffff; /* White for better visibility */
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #e0e0e0; /* Softer white for paragraph text */
+}
+
+.title-block {
+    width: 650px;
+    height: 150px;
+    background-color: rgb(68, 32, 122);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.title-block h2 {
+    color: #ffffff; /* Keep h2 white */
+}
+
+.answer-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0 20px 0;
+}
+
+.answer-block {
+    width: 300px;
+    height: 350px;
+    background-color: #282828; /* Darker background for answer blocks */
+    color: #ffffff; /* White text for better contrast */
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 0 20px; /* Softer shadow for dark mode */
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.answer-block img {
+    width: 100%;
+    height: 280px;
+}
+
+.answer-block h3 {
+    font-size: 20px;
+    color: #ffffff; /* White for headings */
+}
+
+/* Result */
+.result-block {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    width: 650px;
+    background-color: rgb(61, 178, 67);
+    border-radius: 10px;
+    border: 2px solid #ffffff; /* White border for visibility */
+}
+
+.result-block img {
+    width: 650px;
+    height: 550px;
+    border-radius: 5px;
+}
+
+#gotopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    background-color: rgb(255, 0, 0); /* Brighter red for visibility */
+    color: #ffffff; /* White text */
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#gotopBtn:hover {
+    background-color: rgb(237, 129, 129); /* Slightly lighter red on hover */
+}
